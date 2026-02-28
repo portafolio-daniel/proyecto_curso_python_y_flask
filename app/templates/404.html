@@ -1,0 +1,11 @@
+{% extends 'base_bootstrap.html' %}
+
+{% block title %}
+{{super()}}
+    404   
+{% endblock title %}
+
+{% block content %}
+    <h1>Lo sentimos. No encuentro lo que buscas.</h1>
+    <p>{{error}}</p>
+{% endblock content %}
